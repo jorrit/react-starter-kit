@@ -31,6 +31,12 @@ class Navigation extends React.Component {
         <Link className={cx(s.link, s.highlight)} to="/register">
           Sign up
         </Link>
+        <Link className={cx(s.link, s.highlight)} to="#footer">
+          Footer
+        </Link>
+        <a className={cx(s.link, s.highlight)} href="#footer">
+          Footer (regular anchor tag)
+        </a>
       </div>
     );
   }
